@@ -1,5 +1,6 @@
 const path = require('path');
-const fileName = process.argv[3];
+const arg = process.argv[process.argv.length - 1]
+const fileName = arg.substring(2, arg.length);
 
 module.exports = {
   mode: 'development',
@@ -10,7 +11,7 @@ module.exports = {
     publicPath: '/dist/'
   },
   devServer: {
-    openPage: '/different/page'
+    openPage: `src/${fileName}`
   },
   module: {
     rules: [
