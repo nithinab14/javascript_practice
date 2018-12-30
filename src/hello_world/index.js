@@ -1,2 +1,2 @@
 // index.js
-console.log('dwedwed');
+console.log('Hello world');
