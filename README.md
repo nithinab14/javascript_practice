@@ -2,5 +2,5 @@
 
 - npm install
 
-- npm run server -- --[file name inside src folder]
-- browser > http://localhost:8080/src/[file name inside src folder]/
+- npm run server -- --[file_name_inside_src_folder]
+- browser > http://localhost:8080/src/[file_name_inside_src_folder]/
